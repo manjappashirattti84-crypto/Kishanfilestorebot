@@ -23,7 +23,7 @@ API_HASH = environ.get("API_HASH", "4baef40b8f24b66a25ccd232861186ed")
 BOT_TOKEN = environ.get("BOT_TOKEN", "8320501572:AAGH_wkArm3odIJqEXAMcmCxZk7ixeRSCDc")
 
 PICS = (environ.get('PICS', 'https://graph.org/file/ce1723991756e48c35aa1.jpg')).split() # Bot Start Picture
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '777000').split()]
 BOT_USERNAME = environ.get("BOT_USERNAME", "@EpicfilestoreBot") # without @
 PORT = environ.get("PORT", "8080")
 
