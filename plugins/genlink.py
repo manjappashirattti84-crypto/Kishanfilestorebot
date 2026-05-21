@@ -1,6 +1,6 @@
-# Don't Remove Credit @VJ_Bots
-# Subscribe YouTube Channel For Amazing Bot @Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+# Don't Remove Credit @EpicCastle
+# Subscribe YouTube Channel For Amazing Bot 
+# Ask Doubt on telegram @KingKN01
 
 import re
 from pyrogram import filters, Client, enums
@@ -12,9 +12,9 @@ import os
 import json
 import base64
 
-# Don't Remove Credit Tg - @VJ_Bots
+# Don't Remove Credit Tg - @EpicCastle
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+# Ask Doubt on telegram @KingKN01
 
 async def allowed(_, __, message):
     if PUBLIC_FILE_STORE:
@@ -23,9 +23,9 @@ async def allowed(_, __, message):
         return True
     return False
 
-# Don't Remove Credit Tg - @VJ_Bots
+# Don't Remove Credit Tg - @EpicCastle
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+# Ask Doubt on telegram @KingKN01
 
 @Client.on_message((filters.document | filters.video | filters.audio) & filters.private & filters.create(allowed))
 async def incoming_gen_link(bot, message):
